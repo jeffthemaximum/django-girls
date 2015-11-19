@@ -3,7 +3,6 @@ from django.shortcuts import redirect
 from django.utils import timezone
 from .models import Post
 from .forms import PostForm
-import pudb
 
 
 def post_list(request):
